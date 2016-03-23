@@ -15,6 +15,12 @@
 		8F908F891CA33A310048DD77 /* NoteMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F908F881CA33A310048DD77 /* NoteMeTests.swift */; };
 		8F908F941CA33A310048DD77 /* NoteMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F908F931CA33A310048DD77 /* NoteMeUITests.swift */; };
 		8F908FA21CA33AD40048DD77 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F908FA11CA33AD40048DD77 /* CFNetwork.framework */; };
+		8FF9C6AB1CA33DF100ADE45C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6AA1CA33DF100ADE45C /* Security.framework */; };
+		8FF9C6AD1CA33DF900ADE45C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6AC1CA33DF900ADE45C /* libc++.tbd */; };
+		8FF9C6AF1CA33E0300ADE45C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6AE1CA33E0300ADE45C /* libicucore.tbd */; };
+		8FF9C6B11CA33E0E00ADE45C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6B01CA33E0E00ADE45C /* SystemConfiguration.framework */; };
+		8FF9C6B31CA33E3100ADE45C /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6B21CA33E3100ADE45C /* Firebase.framework */; };
+		8FF9C6B41CA33E3100ADE45C /* Firebase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6B21CA33E3100ADE45C /* Firebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8FF9C6B51CA33E3100ADE45C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8FF9C6B41CA33E3100ADE45C /* Firebase.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8F908F701CA33A300048DD77 /* NoteMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F908F731CA33A310048DD77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,11 @@
 		8F908F931CA33A310048DD77 /* NoteMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMeUITests.swift; sourceTree = "<group>"; };
 		8F908F951CA33A310048DD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F908FA11CA33AD40048DD77 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8FF9C6AA1CA33DF100ADE45C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8FF9C6AC1CA33DF900ADE45C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8FF9C6AE1CA33E0300ADE45C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		8FF9C6B01CA33E0E00ADE45C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8FF9C6B21CA33E3100ADE45C /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF9C6B11CA33E0E00ADE45C /* SystemConfiguration.framework in Frameworks */,
+				8FF9C6B31CA33E3100ADE45C /* Firebase.framework in Frameworks */,
+				8FF9C6AF1CA33E0300ADE45C /* libicucore.tbd in Frameworks */,
+				8FF9C6AD1CA33DF900ADE45C /* libc++.tbd in Frameworks */,
+				8FF9C6AB1CA33DF100ADE45C /* Security.framework in Frameworks */,
 				8F908FA21CA33AD40048DD77 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +110,7 @@
 		8F908F671CA33A300048DD77 = {
 			isa = PBXGroup;
 			children = (
-				8F908FA11CA33AD40048DD77 /* CFNetwork.framework */,
+				8FF9C6B61CA33E3A00ADE45C /* Frameworks */,
 				8F908F721CA33A310048DD77 /* NoteMe */,
 				8F908F871CA33A310048DD77 /* NoteMeTests */,
 				8F908F921CA33A310048DD77 /* NoteMeUITests */,
@@ -129,6 +159,27 @@
 			path = NoteMeUITests;
 			sourceTree = "<group>";
 		};
+		8FF9C6B61CA33E3A00ADE45C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FF9C6B71CA33E4200ADE45C /* Firebase */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FF9C6B71CA33E4200ADE45C /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8FF9C6B21CA33E3100ADE45C /* Firebase.framework */,
+				8FF9C6B01CA33E0E00ADE45C /* SystemConfiguration.framework */,
+				8FF9C6AE1CA33E0300ADE45C /* libicucore.tbd */,
+				8FF9C6AC1CA33DF900ADE45C /* libc++.tbd */,
+				8FF9C6AA1CA33DF100ADE45C /* Security.framework */,
+				8F908FA11CA33AD40048DD77 /* CFNetwork.framework */,
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +190,7 @@
 				8F908F6C1CA33A300048DD77 /* Sources */,
 				8F908F6D1CA33A300048DD77 /* Frameworks */,
 				8F908F6E1CA33A300048DD77 /* Resources */,
+				8FF9C6B51CA33E3100ADE45C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -403,6 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NoteMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.NoteMe;
@@ -414,6 +470,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NoteMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.NoteMe;

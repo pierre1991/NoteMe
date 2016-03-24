@@ -19,7 +19,6 @@
 		8FF9C6AF1CA33E0300ADE45C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6AE1CA33E0300ADE45C /* libicucore.tbd */; };
 		8FF9C6B11CA33E0E00ADE45C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6B01CA33E0E00ADE45C /* SystemConfiguration.framework */; };
 		8FF9C6B31CA33E3100ADE45C /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6B21CA33E3100ADE45C /* Firebase.framework */; };
-		8FF9C6B41CA33E3100ADE45C /* Firebase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6B21CA33E3100ADE45C /* Firebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8FF9C6BD1CA33F4F00ADE45C /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6B91CA33F4F00ADE45C /* Fabric.framework */; };
 		8FF9C6BE1CA33F4F00ADE45C /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6BA1CA33F4F00ADE45C /* DigitsKit.framework */; };
 		8FF9C6BF1CA33F4F00ADE45C /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8FF9C6BB1CA33F4F00ADE45C /* DigitsKitResources.bundle */; };
@@ -59,7 +58,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8FF9C6B41CA33E3100ADE45C /* Firebase.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +312,7 @@
 				TargetAttributes = {
 					8F908F6F1CA33A300048DD77 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 93VV7XD2Y6;
+						DevelopmentTeam = VXY4XHS49U;
 					};
 					8F908F831CA33A310048DD77 = {
 						CreatedOnToolsVersion = 7.2.1;

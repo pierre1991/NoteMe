@@ -24,7 +24,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
         circularProfileImageView()
         
         let imageView = profileImage
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ProfileViewController.profileImageTapped))
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: "profileImageTapped")
         imageView.userInteractionEnabled = true
         imageView.addGestureRecognizer(tapGestureRecognizer)
     }
@@ -44,8 +44,10 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
 
     //MARK: Circular Profile Image
     func circularProfileImageView() {
-        profileImage.layer.cornerRadius = self.profileImage.frame.size.width / 2
+        profileImage.layer.cornerRadius = self.profileImage.frame.size.width / 8
         profileImage.clipsToBounds = true
+        profileImage.layer.borderWidth = 2
+        profileImage.layer.borderColor = UIColor.blueColor().CGColor
     }
     
 

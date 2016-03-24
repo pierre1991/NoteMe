@@ -104,7 +104,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="140" id="NK2-gf-gKC">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteCell" rowHeight="140" id="NK2-gf-gKC">
                                 <rect key="frame" x="0.0" y="92" width="600" height="140"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NK2-gf-gKC" id="21j-Qm-fYS">
@@ -161,6 +161,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZC-TC-zg1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1558" y="359"/>
+        </scene>
+        <!--Initial View Controller-->
+        <scene sceneID="7G9-pZ-WaY">
+            <objects>
+                <viewController id="IYO-f6-Cn2" customClass="InitialViewController" customModule="NoteMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gER-uv-QRy"/>
+                        <viewControllerLayoutGuide type="bottom" id="piZ-xx-8Xw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5MQ-ga-fju">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7LG-cX-TDU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1558" y="1113"/>
         </scene>
         <!--Create Note View Controller-->
         <scene sceneID="aNg-7r-qSA">
@@ -238,7 +256,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhc-b9-qZN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2270" y="359"/>
+            <point key="canvasLocation" x="2298" y="359"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YKX-y7-PH0">
@@ -252,11 +270,12 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="WBK-4z-5Xy" kind="relationship" relationship="rootViewController" id="4AA-PQ-VZo"/>
+                        <segue destination="IYO-f6-Cn2" kind="presentation" identifier="noCurrentUser" id="wSn-mj-bj7"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TEX-mk-Gog" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="834" y="359"/>
+            <point key="canvasLocation" x="568" y="545"/>
         </scene>
     </scenes>
     <resources>

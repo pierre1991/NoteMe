@@ -14,6 +14,10 @@
 		8F908F891CA33A310048DD77 /* NoteMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F908F881CA33A310048DD77 /* NoteMeTests.swift */; };
 		8F908F941CA33A310048DD77 /* NoteMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F908F931CA33A310048DD77 /* NoteMeUITests.swift */; };
 		8F908FA21CA33AD40048DD77 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F908FA11CA33AD40048DD77 /* CFNetwork.framework */; };
+		8FF7B72C1CA3B83600D43712 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF7B7281CA3B83600D43712 /* InitialViewController.swift */; };
+		8FF7B72D1CA3B83600D43712 /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF7B7291CA3B83600D43712 /* NoteController.swift */; };
+		8FF7B72E1CA3B83600D43712 /* NoteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF7B72A1CA3B83600D43712 /* NoteListTableViewController.swift */; };
+		8FF7B72F1CA3B83600D43712 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF7B72B1CA3B83600D43712 /* ProfileViewController.swift */; };
 		8FF9C6AB1CA33DF100ADE45C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6AA1CA33DF100ADE45C /* Security.framework */; };
 		8FF9C6AD1CA33DF900ADE45C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6AC1CA33DF900ADE45C /* libc++.tbd */; };
 		8FF9C6AF1CA33E0300ADE45C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6AE1CA33E0300ADE45C /* libicucore.tbd */; };
@@ -23,10 +27,6 @@
 		8FF9C6BE1CA33F4F00ADE45C /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6BA1CA33F4F00ADE45C /* DigitsKit.framework */; };
 		8FF9C6BF1CA33F4F00ADE45C /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8FF9C6BB1CA33F4F00ADE45C /* DigitsKitResources.bundle */; };
 		8FF9C6C01CA33F4F00ADE45C /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9C6BC1CA33F4F00ADE45C /* TwitterCore.framework */; };
-		8FFA31781CA3442C00C50BB3 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA31771CA3442C00C50BB3 /* InitialViewController.swift */; };
-		8FFA317F1CA3443800C50BB3 /* NoteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA31791CA3443800C50BB3 /* NoteListTableViewController.swift */; };
-		8FFA31801CA3443800C50BB3 /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA317A1CA3443800C50BB3 /* CreateNoteViewController.swift */; };
-		8FFA31811CA3443800C50BB3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA317B1CA3443800C50BB3 /* ProfileViewController.swift */; };
 		8FFA31821CA3443800C50BB3 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA317C1CA3443800C50BB3 /* FirebaseController.swift */; };
 		8FFA31831CA3443800C50BB3 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA317D1CA3443800C50BB3 /* UserController.swift */; };
 		8FFA31841CA3443800C50BB3 /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA317E1CA3443800C50BB3 /* NoteController.swift */; };
@@ -78,6 +78,10 @@
 		8F908F931CA33A310048DD77 /* NoteMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMeUITests.swift; sourceTree = "<group>"; };
 		8F908F951CA33A310048DD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F908FA11CA33AD40048DD77 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8FF7B7281CA3B83600D43712 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitialViewController.swift; path = NoteMe/InitialViewController.swift; sourceTree = SOURCE_ROOT; };
+		8FF7B7291CA3B83600D43712 /* NoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteController.swift; path = NoteMe/NoteController.swift; sourceTree = SOURCE_ROOT; };
+		8FF7B72A1CA3B83600D43712 /* NoteListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteListTableViewController.swift; path = NoteMe/NoteListTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		8FF7B72B1CA3B83600D43712 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = NoteMe/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
 		8FF9C6AA1CA33DF100ADE45C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8FF9C6AC1CA33DF900ADE45C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		8FF9C6AE1CA33E0300ADE45C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -87,10 +91,6 @@
 		8FF9C6BA1CA33F4F00ADE45C /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
 		8FF9C6BB1CA33F4F00ADE45C /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
 		8FF9C6BC1CA33F4F00ADE45C /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
-		8FFA31771CA3442C00C50BB3 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
-		8FFA31791CA3443800C50BB3 /* NoteListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListTableViewController.swift; sourceTree = "<group>"; };
-		8FFA317A1CA3443800C50BB3 /* CreateNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
-		8FFA317B1CA3443800C50BB3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8FFA317C1CA3443800C50BB3 /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
 		8FFA317D1CA3443800C50BB3 /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		8FFA317E1CA3443800C50BB3 /* NoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
@@ -156,14 +156,14 @@
 		8F908F721CA33A310048DD77 /* NoteMe */ = {
 			isa = PBXGroup;
 			children = (
-				8FFA31771CA3442C00C50BB3 /* InitialViewController.swift */,
 				8F908F731CA33A310048DD77 /* AppDelegate.swift */,
 				8F908F771CA33A310048DD77 /* Main.storyboard */,
 				8F908F7A1CA33A310048DD77 /* Assets.xcassets */,
 				8F908F7C1CA33A310048DD77 /* LaunchScreen.storyboard */,
 				8F908F7F1CA33A310048DD77 /* Info.plist */,
-				8FFA31891CA3448300C50BB3 /* Model */,
 				8FFA31851CA3445500C50BB3 /* View Controller */,
+				8FFA31891CA3448300C50BB3 /* Model */,
+				8FF7B7271CA3B71600D43712 /* Views */,
 				8FFA31861CA3445F00C50BB3 /* Controllers */,
 			);
 			path = NoteMe;
@@ -185,6 +185,13 @@
 				8F908F951CA33A310048DD77 /* Info.plist */,
 			);
 			path = NoteMeUITests;
+			sourceTree = "<group>";
+		};
+		8FF7B7271CA3B71600D43712 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		8FF9C6B61CA33E3A00ADE45C /* Frameworks */ = {
@@ -215,12 +222,14 @@
 		8FFA31851CA3445500C50BB3 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8FFA31791CA3443800C50BB3 /* NoteListTableViewController.swift */,
-				8FFA317A1CA3443800C50BB3 /* CreateNoteViewController.swift */,
-				8FFA317B1CA3443800C50BB3 /* ProfileViewController.swift */,
+				8FF7B7281CA3B83600D43712 /* InitialViewController.swift */,
+				8FF7B7291CA3B83600D43712 /* NoteController.swift */,
+				8FF7B72A1CA3B83600D43712 /* NoteListTableViewController.swift */,
+				8FF7B72B1CA3B83600D43712 /* ProfileViewController.swift */,
 			);
 			name = "View Controller";
-			sourceTree = "<group>";
+			path = /NoteMe_Git/NoteMe/NoteMe;
+			sourceTree = "<absolute>";
 		};
 		8FFA31861CA3445F00C50BB3 /* Controllers */ = {
 			isa = PBXGroup;
@@ -394,15 +403,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FFA31821CA3443800C50BB3 /* FirebaseController.swift in Sources */,
+				8FF7B72D1CA3B83600D43712 /* NoteController.swift in Sources */,
 				8FFA31841CA3443800C50BB3 /* NoteController.swift in Sources */,
-				8FFA317F1CA3443800C50BB3 /* NoteListTableViewController.swift in Sources */,
+				8FF7B72C1CA3B83600D43712 /* InitialViewController.swift in Sources */,
+				8FF7B72F1CA3B83600D43712 /* ProfileViewController.swift in Sources */,
 				8F908F741CA33A310048DD77 /* AppDelegate.swift in Sources */,
-				8FFA31811CA3443800C50BB3 /* ProfileViewController.swift in Sources */,
 				8FFA318B1CA3448300C50BB3 /* Note.swift in Sources */,
 				8FFA318A1CA3448300C50BB3 /* User.swift in Sources */,
+				8FF7B72E1CA3B83600D43712 /* NoteListTableViewController.swift in Sources */,
 				8FFA31831CA3443800C50BB3 /* UserController.swift in Sources */,
-				8FFA31801CA3443800C50BB3 /* CreateNoteViewController.swift in Sources */,
-				8FFA31781CA3442C00C50BB3 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
